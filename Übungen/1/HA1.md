@@ -29,7 +29,7 @@ $\delta_c = |cos(a) - c(a)| = |(-1) - (-9.9999953\cdot10^{-1})| = 4.7\cdot10^{-7
 
 B)
 
-
+<div style="page-break-after: always;"></div>
 
 Hausaufgabe 1.3:
 $A_x := (x+1)\cdot(x+1)=(x+2)\cdot x+1$
@@ -56,3 +56,7 @@ $\curvearrowright0.1025 >2.5\cdot10^{-3}$
 Bei den Runden einer Zahl von 0.45 wird nicht auf 0.5 sondern auf 0.4 gerundet, sodass in diesem Fall die Rundung genutzt werden kann $((x\boxplus1)\boxdot(x\boxplus1)-A_x$ geringer zu machen, sondern der Betrag dieser größer ist als $|(((x \boxplus2)\boxdot x)\boxplus1)-A_x|$. Des weiteren wird durch multiplizieren von $(((x\boxplus2)\boxdot x)\boxplus1)$ und 0.45 , durch die Rundung, eine größere Zahl erzeugt als beim bei der Multiplizieren von $(x\boxplus1)\cdot(x\boxplus1)$, sodass der Betrag niedriger wird. 
 
 B)
+
+Hausaufgabe 1.4:
+
+Die Berechnung der Werte erfolgt laut unserer Berechnung korrekt und werden angezeigt. Leider sind die Dimension und die Größenverhältnisse nicht angegeben aus Technischen Gründen. 
