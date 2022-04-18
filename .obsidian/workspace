@@ -9,10 +9,20 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Übungen/HA1.md",
+            "file": "Vorlesungen/01 Einleitung.md",
             "mode": "source",
             "backlinks": false,
             "source": false
+          }
+        }
+      },
+      {
+        "id": "3de856d1602b6822",
+        "type": "leaf",
+        "state": {
+          "type": "pdf",
+          "state": {
+            "file": "Vorlesungen/Blätter/Einleitung.pdf"
           }
         }
       }
@@ -70,7 +80,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Übungen/HA1.md"
+                "file": "Vorlesungen/01 Einleitung.md"
               }
             }
           },
@@ -80,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Übungen/HA1.md",
+                "file": "Vorlesungen/01 Einleitung.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,15 +126,15 @@
   },
   "active": "0cdacc53e54aed4c",
   "lastOpenFiles": [
-    "Übungen/HA1.md",
+    "Vorlesungen/01 Einleitung.md",
+    "Vorlesungen/Blätter/Einleitung.pdf",
+    "Numerik/Übungen/HA1.md",
+    "Numerik/Übungen/Abgabe_1_Koelling_Chandla.pdf",
+    "Zusammenfassung/11.04.2022.pdf",
+    "Numerik/Übungen/HA1.pdf",
     "Zusammenfassung/11.04.2022.md",
+    "Übungen/HA1.md",
     "11.04.2022.md",
-    "Beispiele.md",
-    "11.04.2022.pdf",
-    "Test.md",
-    "Vorlesungen/Kapitel 3.md",
-    "Vorlesungen/Kapitel 3 - Nebenlaeufigkeit3.pdf",
-    "Vorlesungen/Kapitel 2.md",
-    "Vorlesungen/Kapitel 4.md"
+    "Beispiele.md"
   ]
 }
