@@ -1,5 +1,4 @@
-Hausaufgabe 2.1
-
+### Hausaufgabe 2.1
 $f(x)=\frac{3x^2-2x^3+1}{3x(2-x)}$ Zz. $\forall x\in[\frac{1}{2},1]$: $f(x)\in[\frac{1}{2},1]$ 
 
 für $f(x)\geq \frac{1}{2} \to p(x)$ 
@@ -26,7 +25,7 @@ Wir betrachten nur den Bereich von $[\frac{1}{2},1]$, in diesem ist die Funktion
 Durch das Umstellen um die Intervallgrenzen haben wir festgestellt, dass weder p(x), noch q(x) in den Intervall liegen. 
 $\curvearrowright$ Die Funktion kann für $x\in[\frac{1}{2},1]$ nur die Werte $f(x)\in \left[\frac{1}{2},1\right] erhalten$
 
- Hausaufgabe 2.2
+### Hausaufgabe 2.2
 a) $h_1\in O(f)$, $h_{2}\in O(g)$, $h_{3}\in o(f)$ für $x \rightarrow x_0$ 
 
 i) $h_{1}+h_{2} \in O(|f|+|g|)$ für $x \rightarrow x_0$
@@ -46,3 +45,7 @@ Für $O(\frac{1}{n})$ mit $n\to\infty$ gilt, desto näher das n gegen $\infty$ l
 Es ist festzuhalten, dass $\limsup\limits_{n\to\infty}(1+\frac{1}{n} )^{n}$ ein monoton steigendes Wachstum hat, während  $O(\frac{1}{n})$ monoton fallend ist.
 Dadurch, dass wir den Betrag von $|\limsup\limits_{n\to\infty}(1+\frac{1}{n} )^{n}|$ benutzen ist das Wachstum nun $\in O(\frac{1}{n})$
 
+### Hausaufgabe 2.4
+Code siehe NumDiff.java
+
+Durch den Anstieg von $n\in\{1,...,20\}$  wird $h=0.25^{n}$ immer kleiner. Durch das kleiner werden von h wird auch der Unterschied zu $f'(x_0)$ kleiner.  
