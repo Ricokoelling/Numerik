@@ -1,3 +1,7 @@
+## Numerische Mathematik Hausaufgaben 
+von Rico Kölling 192316 und Svaran Singh Chandla 193922
+
+
 ### Hausaufgabe 2.1
 $f(x)=\frac{3x^2-2x^3+1}{3x(2-x)}$ Zz. $\forall x\in[\frac{1}{2},1]$: $f(x)\in[\frac{1}{2},1]$ 
 
@@ -44,8 +48,23 @@ Für $O(\frac{1}{n})$ mit $n\to\infty$ gilt, desto näher das n gegen $\infty$ l
 
 Es ist festzuhalten, dass $\limsup\limits_{n\to\infty}(1+\frac{1}{n} )^{n}$ ein monoton steigendes Wachstum hat, während  $O(\frac{1}{n})$ monoton fallend ist.
 Dadurch, dass wir den Betrag von $|\limsup\limits_{n\to\infty}(1+\frac{1}{n} )^{n}|$ benutzen ist das Wachstum nun $\in O(\frac{1}{n})$
+### Hausaufgabe 2.3
+a) $|E(-5.5)-e^{-5.5}|$
+$\forall x < 0:\sum\limits_{k=n+1}^{\infty} \frac{x^{k}}{k!}=\sum\limits_{k=n+1}^{\infty}\frac{(-1)^{k}(|x|)^{k}}{k!}=\sum\limits_{k=n+1}^{\infty}(-1)^{k}\frac{(|x|)^{k}}{k!}$
 
+Aus Leibniz Kriterium (Vorlesungsnotizen) folgt: 
+$\forall<0:\sum\limits_{k=21}^{\infty}(-1)^{k}\frac{(|x|)^{k}}{k!}=\frac{(|x|)^{21}}{21!}$
+-> $|\sum\limits_{k=0}^{20} \frac{-5.5^{k}}{k!}- \sum\limits_{k=0}^{\infty} \frac{-5.5^{k}}{k!}|$
+-> $|-\sum\limits_{k=21}^{\infty} \frac{-5.5^{k}}{k!}|<|-\frac{-5.5^{21}}{21!}| \approx 6.907\cdot10^{-5}$
+
+b) $|E(5.5)^{-1}-e^{-5.5}|$
+-> $|\frac{1}{E(5.5)}-\frac{1}{e^{5.5}}|$
+-> $|\frac{1}{\sum\limits_{k=0}^{20} \frac{5.5^{k}}{k!}} - \frac{1}{\sum\limits_{k=0}^{\infty} \frac{5.5^{k}}{k!}}|$
+->$|\frac{1}{\sum\limits_{k=0}^{20} \frac{5.5^{k}}{k!}} - (\frac{1}{\sum\limits_{k=0}^{20} \frac{5.5^{k}}{k!}} - \frac{1}{\sum\limits_{k=0}^{\infty} \frac{5.5^{k}}{k!}})|$
+-> $|-\frac{1}{\sum\limits_{k=0}^{20} \frac{5.5^{k}}{k!}}|<|\frac{1}{\frac{5.5^{21}}{21!} }| \approx 14478.63$
+
+c)
 ### Hausaufgabe 2.4
 Code siehe NumDiff.java
 
-Durch den Anstieg von $n\in\{1,...,20\}$  wird $h=0.25^{n}$ immer kleiner. Durch das kleiner werden von h wird auch der Unterschied zu $f'(x_0)$ kleiner.  
+Durch den Anstieg von $n\in\{1,...,20\}$  wird $h=0.25^{n}$ immer kleiner. Durch das kleiner werden von h wird auch der Unterschied zu $f'(x_0)$ kleiner.  Also minimiert n den Fehler. 
