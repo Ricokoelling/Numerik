@@ -35,7 +35,7 @@ $x_{k+1}:=-D^{1}(L+R)x_{k}+D^{-1}b$
 
 $L=\begin{pmatrix}0&0&0\\1&0&0\\2&2&0 \end{pmatrix}$
 
-$P=\begin{pmatrix}0&2&-2\\0&0&1\\0&0&0 \end{pmatrix}$
+$R=\begin{pmatrix}0&2&-2\\0&0&1\\0&0&0 \end{pmatrix}$
 
 $Q:=D=\begin{pmatrix}1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{pmatrix}=\mathbb{1}_{3}$
 
@@ -63,10 +63,11 @@ $p(A):=\max\limits_{i}|\lambda_{i}(A)|$ $\to p(I-B^{-1}A)$
 
 Für $A=\begin{pmatrix}1 & 2 & -2 \\ 1 & 1 &1 \\ 2 &  2 & 1 \end{pmatrix}$ 
 
-
 $p(\begin{pmatrix}1&0 & 0 \\ 0 & 1&0\\0&0&1  \end{pmatrix}-\begin{pmatrix}1&0 & 0 \\ 0 & 1&0\\0&0&1 \end{pmatrix}\cdot\begin{pmatrix}1 & 2 & -2 \\ 1 & 1 &1 \\ 2 &  2 & 1 \end{pmatrix})$
 
-$=p(\begin{pmatrix}0 & -2&2\\-1&0&-1\\-2&-2&0 \end{pmatrix})=0<1$  $\curvearrowright$ das Gauß-Seidel-Verfahren konvergiert nicht.
+Dadurch, dass dies noch kein Ausschluss Kriterium ist müssen wir $G\cdot G^{\top}$ rechnen um genau zu sagen , dass 
+
+$p(\begin{pmatrix}0 & -2&2\\-1&0&-1\\-2&-2&0 \end{pmatrix}\cdot\begin{pmatrix}0 & -1&-2\\-2&0&-2\\2&-1&0 \end{pmatrix})=12>1$  $\curvearrowright$ das Gauß-Seidel-Verfahren nicht  konvergiert .
 
 <div style="page-break-after: always;"></div>
 
